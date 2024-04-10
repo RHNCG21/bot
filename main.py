@@ -7,6 +7,8 @@ from pytz import timezone
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
+# push test
+
 GOOGLE_API_KEY = os.environ['geminikey']
 server_ids = [1099127843885170748]
 token = os.environ['token']
